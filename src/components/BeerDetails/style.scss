@@ -1,0 +1,18 @@
+.beer-details{
+	&__title{
+		font-size: 24px;
+		border-bottom: 2px solid royalblue;
+	}
+
+	&__list{
+		padding: 0;
+		&__item{
+			list-style: none;
+			padding: 5px;
+			margin-bottom: 2px;
+			&:nth-child(odd){
+				background-color: #f7f7f7;
+			}
+		}
+	}
+}

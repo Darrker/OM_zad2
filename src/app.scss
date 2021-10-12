@@ -1,0 +1,37 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        &__label{
+            font-size: 16px;
+
+        }
+
+        &__input{
+            padding: 10px;
+            border: 1px solid royalblue;
+            margin: 10px 0;
+        }
+
+        &__submit-button{
+            padding: 5px 10px;
+            background-color: royalblue;
+            font-size: 14px;
+            color: white;
+            border-width: 0;
+        }
+    }
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
